@@ -1,0 +1,2 @@
+btn.oneway.searchpage = {\"locator\":\"xpath=.//*[@id='oneway-flight']\",\"desc\":\"onewaybutton\"}
+link.flightlist.searchpage = {\"locator\":\"xpath=.//*[@class='grid-container standard-padding']\",\"desc\":\"flight list\"}

@@ -1,0 +1,3 @@
+inline.price.searchpage = {\"locator\":\"xpath=//span[@class='full-bold no-wrap']\",\"desc\":\"price\"}
+text.flightname.searchpage = {\"locator\":\"xpath=//span[@data-test-id='airline-name']\",\"desc\":\"flight name\"}
+btn.bookflight.searchpage = {\"locator\":\"xpath=.//button[@class='btn-secondary btn-action t-select-btn']\",\"desc\":\"book button\"}

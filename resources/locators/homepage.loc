@@ -1,0 +1,7 @@
+link.product.homepage = {\"locator\":\"id=primary-header-flight\",\"desc\":\"product type\"}
+link.jorneytype.homepage = {\"locator\":\"id=flight-type-one-way-label\",\"desc\":\"journeytype\"}
+input.source.homepage = {\"locator\":\"id=flight-origin\",\"desc\":\"source city\"}
+input.destination.homepage = {\"locator\":\"id=flight-destination\",\"desc\":\"destination city\"}
+input.calender.homepage = {\"locator\":\"css=#flight-departing\",\"desc\":\"calender\"}
+btn.search.homepage = {\"locator\":\"css=#search-button\",\"desc\":\"search button\"}
+btn.cancelcal.homepage = {\"locator\":\"xpath=.//button[@class='datepicker-close-btn close btn-text']\",\"desc\":\"calender cancel\"}

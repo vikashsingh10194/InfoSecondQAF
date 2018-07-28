@@ -1,0 +1,2 @@
+inline.airline.detailpage = {\"locator\":\"css=.airlineName\",\"desc\":\"selected flight\"}
+inline.price.detailpage = {\"locator\":\"css=.packagePriceTotal\",\"desc\":\"flight price\"}

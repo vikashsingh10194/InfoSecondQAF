@@ -1,0 +1,20 @@
+
+
+SCENARIO: orbitz
+META-DATA: {"description":"orbitztest","groups":["P1","P2","SMOKE"],"dataFile":"resources/flightdata.csv"}
+	
+	Given user navigate to the orbitz homepage
+	When user navigate to home page select flight product
+	And user select for oneway journey
+	And user select for source city as '${source}'
+	And user select for destination city as '${destination}'
+	And user select for journey date
+	Then user click on book button
+	When user wait for present of oneway radio button
+	And user verify for search page
+	Then user will select flight by Index '0'
+	Then user verifying selected flight detail
+	
+END
+
+
